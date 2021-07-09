@@ -10,6 +10,7 @@ public class MyController {
 	@RequestMapping(value="/hello", method=RequestMethod.GET)
 	public String hello() throws Exception {
 		System.out.println("Hello");
+		System.out.println("반갑습니다.");
 		return "home";
 	}
 }
